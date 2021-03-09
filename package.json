@@ -1,0 +1,16 @@
+{
+  "name": "vufinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "syllable": "^4.1.0",
+    "twitch": "^4.5.0",
+    "webhook-discord": "^3.7.7"
+  }
+}
