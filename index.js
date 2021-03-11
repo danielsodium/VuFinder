@@ -24,7 +24,7 @@ function doRequest(options) {
 
             JSON.parse(responseBody).streams.forEach((element) => {
                 if (element.channel.name.toLowerCase().charAt(0) == 't') {
-                    if (syllable(element.channel.name) <= 4 && syllable(element.channel.name) >= 2) {
+                    if (syllable(element.channel.name) == 3) {
                         newJson = {"url" : "https://twitch.tv/"+element.channel.name,
                         "username" : element.channel.name,
                         "viewers" : element.viewers}
